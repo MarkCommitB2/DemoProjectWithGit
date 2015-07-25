@@ -23,5 +23,14 @@ namespace UnitTestWithGitProject
             Assert.IsFalse(isBoolTest,  "Expected False, but failed.");
             Assert.IsFalse(isFalseTest, "Expected False, but failed.");
         }
+
+        [TestMethod]
+        public void TestMethod3()
+        {
+            var string1 = "test";
+            var string2 = "test";
+            Assert.AreEqual(string1, string2,
+                string.Format("expected {0} and {1} to be the same", string1, string2));
+        }
     }
 }
