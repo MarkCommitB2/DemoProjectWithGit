@@ -9,6 +9,9 @@ namespace UnitTestWithGitProject
         [TestMethod]
         public void TestMethod1()
         {
+            var string1 = string.Empty;
+            var string2 = "test";
+            Assert.AreEqual(string1, string2);
         }
     }
 }
