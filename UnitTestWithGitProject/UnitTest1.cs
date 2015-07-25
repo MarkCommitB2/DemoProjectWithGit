@@ -19,7 +19,9 @@ namespace UnitTestWithGitProject
         public void TestMethod2()
         {
             var isBoolTest = true;
+            var isFalseTest = false;
             Assert.IsFalse(isBoolTest,  "Expected False, but failed.");
+            Assert.IsFalse(isFalseTest, "Expected False, but failed.");
         }
     }
 }
